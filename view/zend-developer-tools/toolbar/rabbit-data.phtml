@@ -1,0 +1,22 @@
+<div class="zdt-toolbar-entry">
+    <div class="zdt-toolbar-preview">
+        <img alt="Rabbit Info" height="22px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAABuklEQVRYR+2XsUocURSGv3+MRd5Al4jYBUyhRSBdIL3dPkFw12TdThELIUUgJOkjOzPRLRRLhRB8gJB0inU6Cyu1Flx354Y7ENi5O7vZWWZ3CTrdXM6535xzz/nvGZkS7xFbtD/iFFFUjfP2ZfOGZ0R8B2Yd+035fEqs/eNFpoxJsWkiVuUTJMBlPgPrgFwfBZ1rvdjdwA0MVYWEDthGtQZMOJu2FPAoj4gbwKoCvvYJbipg8j8Hi4p8dkYf8X0D32KoKGR31KkeI1i8lU89EXGJjygWELePc2snG3FJIXsJ8AofMGwME2x5h4htDBERwuMx8A54niIUEVAl4jdeXwr2s5tk2r2thrs67vVQpzT7NHMPw69e4CwKmNl2XODWAzjzWTkOzbaCtMOC7feOoQHINdVniH3gBhPD7P28BLwC3G7IDdxCvJDPiaPtT4FjYK5jYukyc2VNeQuYUsB1ArzMEzy+AYvDA98xrTpXCXCFGZoxeGF4YI+CalyOGhxhKCrkyLnNXiIOgMKwIrb7XgA/EHY0/ttK9mznUwomt6rOXIwPkpk1ZYPaR+NKdQy2fwuvB/30Af2+/AGksecnYIp6dgAAAABJRU5ErkJggg=="/>
+    </div>
+    <div class="zdt-toolbar-detail">
+        <span class="zdt-toolbar-info">
+            <span class="zdt-detail-label"><?= ucwords('version') ?></span>
+            <span class="zdt-detail-value">v0.1.0</span>
+        </span>
+        <span class="zdt-toolbar-info">
+            <div style="max-height: 400px !important; max-width: 700px; overflow-y: auto !important; overflow-x: hidden;">
+                <span class="zdt-toolbar-info">
+                    <span class="zdt-detail-label"><?= ucfirst('queues') ?></span>
+                    <span class="zdt-detail-value">
+
+                    </span>
+                </span>
+                <?= $this->ZendDeveloperToolsDetailArray(ucfirst('servers'), []) ?>
+            </div>
+        </span>
+    </div>
+</div>
